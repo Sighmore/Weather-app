@@ -29,6 +29,8 @@ fun WeatherPage(viewModel: WeatherViewModel){
         mutableStateOf("")
     }
 
+    val weatherResult=viewModel.weatherResult
+
     Column(modifier = Modifier.fillMaxWidth().padding(8.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
